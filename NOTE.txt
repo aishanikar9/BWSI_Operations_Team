@@ -1,0 +1,4 @@
+The annotation of the classification defined as follows: 
+	1. "0" represents "Superficial Damage"
+	2. "1" represents "Medium Damage"
+	3. "2" represents "Major Damage"
