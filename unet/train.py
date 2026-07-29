@@ -22,10 +22,10 @@ image_height =160
 image_width = 240
 pin_memory = True
 load_model = True
-train_img_dir = os.path.join(path, "train", "train-org-img")
-train_mask_dir = os.path.join(path, "train", "train-label-img")
-val_img_dir = os.path.join(path, "val", "val-org-img")
-val_mask_dir = os.path.join(path, "val", "val-label-img")
+train_img_dir = os.path.join(path, "RescueNet", "train", "train-org-img")
+train_mask_dir = os.path.join(path, "RescueNet", "train", "train-label-img")
+val_img_dir = os.path.join(path, "RescueNet", "val", "val-org-img")
+val_mask_dir = os.path.join(path, "RescueNet", "val", "val-label-img")
 
 def train(loader, model, optimizer, loss_func, scaler):
     loop = tqdm(loader)
